@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = ''
+url = 'https://www.cyberpunk.net/gb/en/pre-order?gclid=EAIaIQobChMI5q64hcG07QIVyLHtCh1rhg3iEAAYASAAEgIXU_D_BwE'
 
 r = requests.get(url)
 
